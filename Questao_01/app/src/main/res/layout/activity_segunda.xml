@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.natansevero.android.questao_01.SegundaActivity">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/soccer"
+        android:scaleType="centerCrop"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_x="100dp"
+        android:text="Easy Team Application"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esse foi o times selecioando:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_x="30dp"
+        android:layout_y="110dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="190dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seu time:"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/text_time_selecionado"
+                android:textAppearance="?android:textAppearanceLarge"/>
+        </TableRow>
+    </TableLayout>
+</AbsoluteLayout>

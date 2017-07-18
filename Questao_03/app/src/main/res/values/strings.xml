@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Detalhe do CEP</string>
+    <string name="button_name">Consultar</string>
+</resources>
